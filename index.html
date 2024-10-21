@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>My festive gallery</title>
+</head>
+
+<body>
+	
+    <!-- Heading Name -->
+    <div class="heading">
+        <h1>Image Gallery</h1>
+    </div>
+     <h2> festive gallery </h2>
+    <!-- Image Gallery section all images in one div -->
+    <div class="gallery">
+        <div class="gallery-item">`	
+            <img src="https://t4.ftcdn.net/jpg/05/60/58/67/360_F_560586710_VmIHNuH6TcdLHIn3cEuIDDAcCYBhkIL0.jpg"   onclick="openModal('https://t4.ftcdn.net/jpg/05/60/58/67/360_F_560586710_VmIHNuH6TcdLHIn3cEuIDDAcCYBhkIL0.jpg')" alt="festival of colors">
+			        </div>
+        <div class="gallery-item">
+            <img src="https://thumbs.dreamstime.com/b/diwali-festival-india-homes-streets-adorned-dazzling-displays-diyas-oil-lamps-creating-mesmerizing-spectacle-330575845.jpg"   onclick="openModal('https://thumbs.dreamstime.com/b/diwali-festival-india-homes-streets-adorned-dazzling-displays-diyas-oil-lamps-creating-mesmerizing-spectacle-330575845.jpg')"      alt="festival of lights">
+        </div>
+        <div class="gallery-item">
+            <img src="https://hiddenmantra.com/wp-content/uploads/2024/09/Happy-Navratri-Wishes-in-English-2024-1024x1024.jpg"   onclick="openModal('https://hiddenmantra.com/wp-content/uploads/2024/09/Happy-Navratri-Wishes-in-English-2024-1024x1024.jpg')"    alt="festival of women empowerment">
+        </div>
+        <div class="gallery-item">
+            <img src="https://images.news18.com/ibnlive/uploads/2024/09/dussehra-2024-celebrations-rituals-puja-muhurat-2024-09-02379c53de298bfcd939456b5915a76e.jpg"  onclick="openModal('https://images.news18.com/ibnlive/uploads/2024/09/dussehra-2024-celebrations-rituals-puja-muhurat-2024-09-02379c53de298bfcd939456b5915a76e.jpg')"  alt="victory of good over evil">
+        </div>
+        <div class="gallery-item">
+            <img src="https://cdnjs.angroos.com/wp-content/uploads/2024/01/Lohri-wishes-1200x900.jpg"       onclick="openModal('https://cdnjs.angroos.com/wp-content/uploads/2024/01/Lohri-wishes-1200x900.jpg')" alt="festival of joy">
+        </div>
+        <div class="gallery-item">
+            <img src="https://c8.alamy.com/comp/2T8WHCB/illustration-of-happy-gurpurab-guru-nanak-jayanti-festival-of-sikh-celebration-background-2T8WHCB.jpg"  onclick="openModal('https://c8.alamy.com/comp/2T8WHCB/illustration-of-happy-gurpurab-guru-nanak-jayanti-festival-of-sikh-celebration-background-2T8WHCB.jpg')" alt="gurpurab">
+        </div>
+        <div class="gallery-item">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWypb_WSios_WHMHIFdz-NYkoe_SKOSDyVaw&s"       onclick="openModal('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWypb_WSios_WHMHIFdz-NYkoe_SKOSDyVaw&s')" alt="festival of kites">
+        </div>
+        <div class="gallery-item">
+            <img src="https://www.india.com/wp-content/uploads/2023/01/Basant-Panchami-2023-2.jpg" onclick="openModal('https://www.india.com/wp-content/uploads/2023/01/Basant-Panchami-2023-2.jpg')"       alt="festival of art and music">
+        </div>
+    </div>
+
+    <!-- Modal for Image Display -->
+    <div id="myModal" class="modal">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <img class="modal-content" id="modalImage">
+    </div>
+
+   <script lang="javascript" src="script.js"></script>
+</body>
+
+</html>
